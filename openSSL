@@ -1,0 +1,66 @@
+OpenSSL 函数 ¶
+目录 ¶
+openssl_cipher_iv_length — 获取密码iv长度
+openssl_cipher_key_length — Gets the cipher key length
+openssl_cms_decrypt — Decrypt a CMS message
+openssl_cms_encrypt — Encrypt a CMS message
+openssl_cms_read — Export the CMS file to an array of PEM certificates
+openssl_cms_sign — Sign a file
+openssl_cms_verify — Verify a CMS signature
+openssl_csr_export_to_file — 将CSR导出到文件
+openssl_csr_export — 将CSR作为字符串导出
+openssl_csr_get_public_key — 返回CSR的公钥
+openssl_csr_get_subject — 返回 CSR 的主题
+openssl_csr_new — 生成一个 CSR
+openssl_csr_sign — 用另一个证书签署 CSR (或者本身) 并且生成一个证书
+openssl_decrypt — 解密数据
+openssl_dh_compute_key — 计算远程 DH 公钥和本地 DH 密钥的共享密钥
+openssl_digest — 计算摘要
+openssl_encrypt — 加密数据
+openssl_error_string — 返回 openSSL 错误消息
+openssl_free_key — 释放密钥资源
+openssl_get_cert_locations — 检索可用的证书位置
+openssl_get_cipher_methods — 获取可用的加密算法
+openssl_get_curve_names — 获得ECC的可用曲线名称列表
+openssl_get_md_methods — 获取可用的摘要算法
+openssl_get_privatekey — 别名 openssl_pkey_get_private
+openssl_get_publickey — 别名 openssl_pkey_get_public
+openssl_open — 打开密封的数据
+openssl_pbkdf2 — 生成一个 PKCS5 v2 PBKDF2 字符串
+openssl_pkcs12_export_to_file — 输出一个 PKCS#12 兼容的证书存储文件
+openssl_pkcs12_export — 将 PKCS#12 兼容证书存储文件导出到变量
+openssl_pkcs12_read — 将 PKCS#12 证书存储区解析到数组中
+openssl_pkcs7_decrypt — 解密一个 S/MIME 加密的消息
+openssl_pkcs7_encrypt — 加密一个 S/MIME 消息
+openssl_pkcs7_read — 将 PKCS7 文件导出为 PEM 格式证书的数组
+openssl_pkcs7_sign — 对一个 S/MIME 消息进行签名
+openssl_pkcs7_verify — 校验一个已签名的 S/MIME 消息的签名
+openssl_pkey_derive — Computes shared secret for public value of remote and local DH or ECDH key
+openssl_pkey_export_to_file — 将密钥导出到文件中
+openssl_pkey_export — 将一个密钥的可输出表示转换为字符串
+openssl_pkey_free — 释放一个私钥
+openssl_pkey_get_details — 返回包含密钥详情的数组
+openssl_pkey_get_private — 获取私钥
+openssl_pkey_get_public — 从证书中解析公钥，以供使用
+openssl_pkey_new — 生成一个新的私钥
+openssl_private_decrypt — 使用私钥解密数据
+openssl_private_encrypt — 使用私钥加密数据
+openssl_public_decrypt — 使用公钥解密数据
+openssl_public_encrypt — 使用公钥加密数据
+openssl_random_pseudo_bytes — 生成一个伪随机字节串
+openssl_seal — 密封 (加密) 数据
+openssl_sign — Generate signature
+openssl_spki_export_challenge — 导出与签名公钥和 challenge 相关的 challenge
+openssl_spki_export — 通过签名公钥和 challenge 导出一个可用的 PEM 格式的公钥
+openssl_spki_new — 生成新的签名公钥和 challenge
+openssl_spki_verify — 验证签名公钥和 challenge
+openssl_verify — 验证签名
+openssl_x509_check_private_key — 检查私钥是否对应于证书
+openssl_x509_checkpurpose — 验证是否可以为特定目的使用证书
+openssl_x509_export_to_file — 导出证书至文件
+openssl_x509_export — 以字符串格式导出证书
+openssl_x509_fingerprint — 计算一个给定的 x.509 证书的指纹或摘要
+openssl_x509_free — 释放证书资源
+openssl_x509_parse — 解析一个 X509 证书并作为一个数组返回信息
+openssl_x509_read — 解析 x.509 证书并返回对象
+openssl_x509_verify — Verifies digital signature of x509 certificate against a public key
